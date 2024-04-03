@@ -20,7 +20,7 @@ def get_meals_file(url):
         link = cardapio_semana_atual.find_all('a', href=True)[0]
      #   print(link['href'])
         link_cardapio = link['href']
-    #print(response.status_code)
+    print(response.status_code)
 
     return response.status_code, link_cardapio
 
