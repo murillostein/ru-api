@@ -1,0 +1,8 @@
+pytest
+regex
+requests
+pandas
+llama_parse
+smmap
+bs4
+nest_asyncio
